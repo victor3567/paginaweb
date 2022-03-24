@@ -1,0 +1,57 @@
+
+/* Declaring custom properties */
+* {
+  box-sizing: border-box;
+  border: thin solid red;
+}
+
+body {
+  margin: 0;
+}
+
+#logo{
+  background-color: black;
+}
+#menu{
+  text-align: center;
+}
+.menu ul {
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  display: inline-block;
+  list-style-type: none;
+}
+#carrito {
+  background-color: black;
+}
+.img-carrito {
+  margin-left: 1700px
+}
+.imagen-apaisada{
+  position: relative;
+}
+.imagen-apaisada img {
+  width:100%;
+  max-width:100%;
+}
+.centrada-en-imagen{
+  position: absolute;
+  background-color: green;
+
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 1em 3em;
+}
+
+#search {
+background-color: yellow;
+}
+
+.titulo-centrado {
+  padding-bottom: 5em !important;
+}
