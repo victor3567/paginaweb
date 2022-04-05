@@ -48,7 +48,7 @@ body {
   padding: 1em 3em;
 }
 .centrada-en-imagen p{
-color: white;
+  color: white;
 }
 .abajo-en-imagen {
   position: absolute;
@@ -61,7 +61,7 @@ color: white;
   text-align: center;
 }
 #search {
-background-color: yellow;
+  background-color: yellow;
 }
 
 .titulo-centrado {
@@ -69,13 +69,13 @@ background-color: yellow;
 }
 .imagen-porland  {
   text-align: center;
-  }
+}
 .imagen-porland img{
-width: 120px;
-height: 120px;
+  width: 120px;
+  height: 120px;
 }
 #porland{
-text-align: center;
+  text-align: center;
 }
 .llamado-de-emergencia{
   position: relative;
@@ -83,14 +83,13 @@ text-align: center;
   bottom: 63.3px;
 }
 .llamado-de-emergencia img{
-width: 40px;
-height: 40px;
+  width: 40px;
+  height: 40px;
 }
 .llamado-de-emergencia img{
   margin-right: 200px;
 }
 .gutters {
-
   margin-top: 40px;
   text-align: center;
   padding: 100px;
@@ -105,19 +104,64 @@ height: 40px;
   float: left;
 }
 
-
-
 #tcapa-l{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
 .tcapa-franjas > img {
-top: 10px;
-width: 170px;
-height: 90px;
+  top: 10px;
+  width: 170px;
+  height: 90px;
 }
+
 .tcapa-franjas  {
   text-align: center;
+}
+
+#our-costumers{
+
+}
+
+.costumers{
+  padding: 100px;
+  background-color: #e6e9eb;
+}
+
+.primera-frase{
+  position: relative;
+  left: 30px;
+  bottom: 50px;
+
+}
+
+.contenedor-cuadrados {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+grid-column-gap: 1em;
+}
+
+.primer-cuadrado{
+  position: relative;
+  background-color: white;
+  padding: 100px;
+
+}
+
+.segundo-cuadrado{
+  position: relative;
+  background-color: white;
+
+
+}
+.triangle-down {
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 30.2px;
+  bottom: -50px;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 50px solid #555;
 
 }
