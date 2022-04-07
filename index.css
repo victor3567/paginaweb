@@ -138,19 +138,26 @@ body {
 .contenedor-cuadrados {
   display: grid;
   grid-template-columns: 1fr 1fr;
-grid-column-gap: 1em;
+  grid-column-gap: 1em;
+  text align: center
 }
 
 .primer-cuadrado{
   position: relative;
   background-color: white;
   padding: 100px;
+  line-height: 30px;
+
 
 }
 
 .segundo-cuadrado{
   position: relative;
   background-color: white;
+  text-align: center;
+  padding: 100px;
+  line-height: 30px;
+
 
 
 }
@@ -163,5 +170,15 @@ grid-column-gap: 1em;
   border-left: 25px solid transparent;
   border-right: 25px solid transparent;
   border-top: 50px solid #555;
-
+}
+.frases {
+text-align: center;
+}
+.img1{
+  position: relative;
+  left: 1000px;
+}
+.img2 {
+  position: relative;
+  bottom: 350.2px;
 }
